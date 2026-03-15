@@ -1,0 +1,289 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{natbib}
+
+\title{Did COVID-19 Hollow Out the Middle Class?\\An Evidence Synthesis and Empirical Framework on Wage and Consumption Inequality Within the OECD Middle Class After the Pandemic}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This manuscript is an evidence synthesis and empirical framework paper, not a completed OECD-wide microdata study. It examines a sharp but still only partially answered question: whether the COVID-19 period widened inequality within the middle class in OECD countries by increasing wage and consumption dispersion among middle-income households and by raising the likelihood that some households exited the middle toward lower- or higher-income positions. The directly accessible evidence assembled here supports a bounded conclusion rather than a definitive hollowing-out verdict. First, COVID-19 interacted with pre-existing socioeconomic vulnerability, implying that more unequal settings were less resilient to the pandemic shock \citep{covid19andincomein2021springer}. Second, post-pandemic labour-market recovery in the OECD did not eliminate distributional stress, because inflation and affordability pressures weakened the welfare meaning of nominal recovery \citep{oecdemploymentoutl2024oecd,societyataglance202024bolletti}. Third, consumption inequality is not mechanically increasing during a crisis: high-quality official evidence from the United States, used here as a comparator rather than as direct OECD proof, shows an initial fall in measured consumption inequality in 2020 followed by a partial rebound as spending composition normalized \citep{consumptioninequal2024bls}. On that basis, the strongest defensible claim is that COVID-19 intensified distributional pressure on OECD middle-income households, with heterogeneous effects across countries and across phases of the shock, rather than that it universally hollowed out the OECD middle class. The paper contributes by distinguishing observed evidence from still-unestimated expectations, clarifying how within-middle wage inequality, within-middle consumption inequality, and hollowing out should be separately measured, and specifying the transition, decomposition, and subgroup evidence needed for a decisive cross-country test.
+\end{abstract}
+
+\section{Introduction}
+This paper asks whether the COVID-19 period hollowed out the middle class in OECD countries. More precisely, it asks two related questions. First, did wage and consumption inequality rise \emph{within} the middle class? Second, did the pandemic period increase movement of previously middle-income households toward lower- and higher-income positions, thereby reducing the density of the middle itself? These questions are often rhetorically conflated, but analytically they are distinct.
+
+A concrete example helps fix the problem. Consider two households that both started 2020 in the middle of their national income distribution. One relied on stable, teleworkable employment, accumulated savings during restricted mobility, and later saw earnings recover quickly in a tight labour market. The other relied on in-person work, faced unstable hours, and then encountered delayed wage adjustment when food, housing, and energy costs rose. Even if both households remained near the middle in annual income rank, their economic security and consumption possibilities diverged sharply. That divergence is the core object of this paper.
+
+The question matters because aggregate recovery indicators can mislead. Employment can recover while real household welfare remains fragile. Nominal wages can rise while purchasing power falls. Measured consumption inequality can compress during lockdowns even as later inflation worsens living standards. For that reason, any serious middle-class assessment must distinguish labour-market recovery from distributional recovery.
+
+This manuscript adopts the route most consistent with the evidence presently available: it is an evidence synthesis and protocol-style empirical framework. It does \emph{not} claim to have directly estimated OECD-wide middle-class transitions or a harmonized cross-country decomposition of within-middle wage and consumption inequality. The title question is therefore treated as a testable proposition of major substantive interest, not as an already settled empirical fact.
+
+The central argument is correspondingly bounded. The accessible OECD and peer-reviewed evidence supports the conclusion that COVID-19 intensified distributional pressure on middle-income households across OECD countries, but that pressure likely took heterogeneous forms across countries and over time \citep{oecdemploymentoutl2024oecd,societyataglance202024bolletti}. In some settings, the main problem was real-wage erosion under inflation. In others, it may have been divergence in labour-market recovery, savings buffers, or exposure to essential-price shocks. What the current evidence does \emph{not} yet justify is a universal statement that the OECD middle class was demonstrably hollowed out in a symmetric, directly measured sense.
+
+\subsection{Contribution and manuscript type}
+The manuscript makes three contributions. First, it states the manuscript type explicitly and aligns its claims to that type: this is an evidence synthesis and empirical framework paper. Second, it separates observed evidence from plausible but not yet directly estimated channels. Third, it specifies the data structure and measurement logic required to test the hollowing-out hypothesis properly once harmonized OECD microdata are assembled.
+
+\subsection{Roadmap}
+Section 2 reviews the literature relevant to inequality, middle-class measurement, and pandemic distributional dynamics. Section 3 defines the paper's core concepts. Section 4 explains source construction and evidentiary grading. Section 5 develops an analytical framework and a concrete empirical design. Section 6 presents the observed evidence synthesis. Section 7 then separates out testable expectations that remain unestimated in the current source base. Section 8 discusses robustness, limitations, and threats to validity. Section 9 considers implications for policy and future research. Section 10 concludes.
+
+\section{Background and Related Literature}
+
+\subsection{Three literatures that must be kept separate}
+The title question sits at the intersection of three literatures that are often blended too quickly. The first studies inequality and vulnerability during COVID-19. The second studies labour-market recovery and post-pandemic real-wage pressure. The third studies middle-class measurement, mobility, and polarization. The accessible source base is strong on the first two literatures and only partial on the third. That asymmetry is central to how the present paper frames its claims.
+
+The most direct mechanism paper in the assembled set is the OECD-country study by \citet{covid19andincomein2021springer}, which shows that more unequal countries experienced worse COVID-19 outcomes. That finding does not establish middle-class hollowing out, but it does support a foundational mechanism: pre-existing inequality shaped exposure to the shock. This matters because it implies that the pandemic should not be treated as a uniform disturbance layered onto otherwise comparable households.
+
+The second literature concerns the post-pandemic labour market. OECD evidence shows a strong employment recovery, but it also stresses that inflation and cost-of-living pressure remained central to household welfare \citep{oecdemploymentoutl2024oecd}. This immediately complicates any simple recovery narrative. A rebound in employment or nominal wages is not equivalent to restoration of middle-class security.
+
+The third literature concerns middle-class measurement and polarization. Ideally, this literature would be anchored by transition matrices, subgroup decompositions, and within-band dispersion metrics. In the present source set, however, directly accessible evidence on OECD-wide middle-income transitions after COVID-19 remains incomplete. A potentially highly relevant OECD working-paper lead exists, but in this research run it was available only as metadata and snippet evidence rather than full text \citep{oecdeconomicsdepar2023one}. Accordingly, this paper can frame the right empirical test, but not claim to have completed it.
+
+\subsection{What can be said about the pre-pandemic baseline}
+The pre-pandemic baseline must be handled carefully. Public discussion of the OECD middle class before 2020 often emphasized affordability concerns, uneven wealth accumulation, and labour-market segmentation. However, the directly accessible sources assembled for this paper do not provide a sufficiently direct pre-2020 evidentiary base to support a heavily detailed baseline narrative. For that reason, this manuscript treats the pre-pandemic middle-class squeeze as contextual background widely discussed in OECD policy debates rather than as a result demonstrated here.
+
+This downscoping is deliberate. It is better to mark baseline structural pressure as context than to overstate support for specific claims about pre-2020 housing burden, income stagnation, labour dualization, or wealth concentration without directly verifiable citations from the present source set. The main analytical burden of the paper therefore falls on the pandemic period and its aftermath, where the evidence assembled here is stronger.
+
+\subsection{Why consumption inequality deserves separate attention}
+One reason the hollowing-out question is difficult is that income and consumption can move differently during a major shock. Official evidence from the United States shows that measured consumption inequality fell in 2020 and then partially rebounded in 2021 and 2022 \citep{consumptioninequal2024bls}. The key lesson is not that the pandemic equalized welfare. Rather, high-end discretionary spending contracted sharply during restrictions, temporarily compressing the measured consumption distribution.
+
+That finding matters for OECD analysis because it rules out a simplistic monotonic story. If comparable composition effects operated elsewhere, then an initial compression of measured consumption inequality could coexist with later middle-class stress once restrictions eased and inflation hit essentials. The relevant question is therefore not whether one summary statistic rose continuously from 2020 onward, but whether the pandemic sequence altered the distribution of living standards within and around the middle class.
+
+\subsection{Related-work gap addressed by this paper}
+The contribution of this paper is to organize these literatures into a common analytical frame. It distinguishes three objects that need separate treatment: within-middle wage inequality, within-middle consumption inequality, and hollowing out of the middle through transitions. That distinction is methodologically important because the evidence requirements differ. Wage dispersion can be studied with labour-market microdata. Consumption dispersion requires household budget data. Hollowing out requires direct transition or share-shift evidence. Much of the public debate moves across these objects too quickly; this paper is designed to slow that move down.
+
+\section{Definitions and Conceptual Framing}
+
+\subsection{Defining the middle class}
+In this paper, the middle class is defined operationally as middle-income households within national OECD distributions. A median-centered relative-income definition is the most defensible baseline for cross-country work because it respects differences in national price levels, tax systems, and welfare states. At the same time, a relative definition is not sufficient for welfare analysis, because a household can remain in the middle of a weaker real-income distribution. The paper therefore separates \emph{middle-class position} from \emph{middle-class welfare}.
+
+A future empirical implementation should use a baseline middle-income band centered on equivalized disposable household income and then test narrower and wider bands for sensitivity. That approach does not solve all comparability problems, but it gives reviewers a transparent starting point.
+
+\subsection{Defining within-middle inequality}
+Within-middle inequality refers to dispersion among households located inside the middle-income band. This concept is analytically separate from overall inequality. A country may show little change in an aggregate inequality index while the middle stretches internally. Conversely, the middle share may shrink without much change in dispersion among those who remain.
+
+Three empirical objects should therefore be kept distinct:
+\begin{itemize}
+\item within-middle wage inequality: dispersion in labour earnings among middle-income workers or households;
+\item within-middle consumption inequality: dispersion in total or category-specific expenditures among middle-income households;
+\item hollowing out: reduction in the mass of the middle through movement toward lower and higher parts of the distribution.
+\end{itemize}
+
+The first two are dispersion concepts. The third is a transition or share concept. The title question cannot be answered cleanly unless those concepts are distinguished throughout.
+
+\subsection{Why wages and consumption can diverge}
+Wages capture labour-market processes: job loss, hours instability, sectoral scarring, bargaining power, and nominal pay adjustment. Consumption captures realized living standards after taxes, transfers, price changes, savings drawdown, debt service, and behavioural adjustment. These margins can diverge sharply during a pandemic sequence. Emergency support can stabilize consumption despite wage loss. Later inflation can erode consumption even when employment and nominal earnings recover. Middle-income households are especially relevant here because they are often too exposed to absorb shocks easily and too broad a group to be summarized by a single poverty-oriented indicator.
+
+\begin{table}[t]
+\centering
+\caption{Core concepts and recommended empirical indicators}
+\begin{tabular}{p{0.24\linewidth}p{0.28\linewidth}p{0.38\linewidth}}
+\toprule
+Concept & Working definition & Recommended indicator \\
+\midrule
+Middle class & Middle-income households in national distributions & Median-centered band in equivalized disposable income, with sensitivity bands \\
+Within-middle wage inequality & Dispersion in labour earnings inside the middle band & P60/P40 or P70/P30 within-band wage ratio, variance of log wages, decile or ventile spread \\
+Within-middle consumption inequality & Dispersion in expenditures inside the middle band & Price-adjusted total expenditure spread; essential and discretionary category dispersion \\
+Hollowing out & Exit from the middle toward lower or higher segments & Transition matrices, change in middle-income share, entry and exit rates \\
+Real-wage pressure & Erosion of purchasing power despite nominal gains & Wage growth net of inflation, ideally with household-specific inflation exposure \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent Table 1 clarifies the paper's central measurement claim: a convincing test of middle-class hollowing out requires transition evidence, not only wage or price context.
+
+\section{Data and Source Construction}
+
+\subsection{Source selection}
+The paper is built from a constrained but credible evidence base. The principal sources are the \emph{OECD Employment Outlook 2024} \citep{oecdemploymentoutl2024oecd}, \emph{Society at a Glance 2024} \citep{societyataglance202024bolletti}, the peer-reviewed article \emph{COVID-19 and income inequality in OECD countries} \citep{covid19andincomein2021springer}, the official BLS study on consumption inequality \citep{consumptioninequal2024bls}, and an OECD working-paper lead available here only through metadata/snippet evidence \citep{oecdeconomicsdepar2023one}.
+
+The provenance of the social-indicators source deserves explicit note. \emph{Society at a Glance 2024} is an OECD publication, but in this research run its full text was accessed through a mirror URL rather than directly through the OECD website. The citation refers to the publication itself, while the access path used here was a mirror copy.
+
+\subsection{Evidentiary grading}
+Because the paper's question is sharper than the currently accessible data, claims must be graded. The present manuscript uses three evidence grades.
+
+\begin{itemize}
+\item \textbf{Direct evidence}: evidence that bears directly on the claim of interest, such as OECD-country findings on inequality and pandemic vulnerability \citep{covid19andincomein2021springer}.
+\item \textbf{Indirect but informative evidence}: evidence that does not directly estimate OECD middle-class hollowing out but is methodologically or substantively relevant, such as labour-market recovery under inflation or U.S. consumption-inequality dynamics \citep{oecdemploymentoutl2024oecd,consumptioninequal2024bls}.
+\item \textbf{Provisional evidence}: leads that appear highly relevant but were not directly accessible in full text in this run \citep{oecdeconomicsdepar2023one}.
+\end{itemize}
+
+This structure prevents a common inferential error: moving from strong context to strong conclusion without the intermediate evidence actually required.
+
+\begin{table}[t]
+\centering
+\caption{Claim-to-evidence map}
+\begin{tabular}{p{0.34\linewidth}p{0.16\linewidth}p{0.34\linewidth}}
+\toprule
+Claim & Evidence grade & Main supporting source(s) \\
+\midrule
+Pandemic effects interacted with pre-existing inequality and vulnerability & Direct & \citet{covid19andincomein2021springer} \\
+OECD labour-market recovery did not remove real-welfare pressure & Indirect but strong & \citet{oecdemploymentoutl2024oecd} \\
+Affordability and social-risk pressures remained relevant after the acute phase & Indirect but strong & \citet{societyataglance202024bolletti} \\
+Consumption inequality can move non-monotonically through pandemic phases & Indirect comparator & \citet{consumptioninequal2024bls} \\
+Middle-class shrinkage and polarization are likely direct OECD research topics & Provisional & \citet{oecdeconomicsdepar2023one} \\
+OECD-wide post-pandemic hollowing out of the middle class is established & Not supported directly in current source set & No direct transition/decomposition evidence assembled here \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent Table 2 states the paper's evidentiary discipline explicitly: the final row is intentionally negative because the current source set does not directly establish the strongest title claim.
+
+\subsection{What evidence would decisively answer the question}
+A decisive test would require harmonized cross-country microdata linking households across three phases: pre-pandemic baseline, pandemic shock and support, and post-pandemic inflation and reopening. At minimum, the design should include equivalized disposable income, labour earnings, hours, detailed expenditures, household characteristics, and country-year policy variables. The highest-value additions would be transition matrices for middle-income households, within-band wage decompositions, and repeated household-budget evidence that distinguishes lockdown composition effects from later inflation exposure.
+
+\section{Methodology and Analytical Framework}
+
+\subsection{A four-phase distributional timeline}
+The pandemic should be analyzed as a sequence, not a single event. Figure 1 presents the proposed periodization.
+
+\begin{figure}[t]
+\centering
+\fbox{\parbox{0.95\linewidth}{
+\textbf{Phase 1: Initial shock (2020)}\\
+Health restrictions, sector shutdowns, hours losses, large differences in teleworkability.\\[0.4em]
+\textbf{Phase 2: Policy cushioning (2020--2021)}\\
+Wage subsidies, furloughs, expanded transfers, debt/payment relief, suppressed discretionary spending.\\[0.4em]
+\textbf{Phase 3: Reopening and labour-market tightening (2021--2022)}\\
+Uneven nominal wage recovery across sectors, occupations, and bargaining regimes.\\[0.4em]
+\textbf{Phase 4: Inflation and affordability pressure (2022 onward)}\\
+Real-wage erosion, essential-price shock, heterogeneous consumption adjustment.\\[0.6em]
+\textbf{Measurable outcomes by phase}\\
+Within-middle wage dispersion; within-middle consumption dispersion; transition out of the middle band; changes in essential-budget stress.
+}}
+\caption{Analytical timeline for evaluating middle-class distributional change. The figure links phases of the pandemic sequence to specific measurable outcomes rather than treating COVID-19 as a single shock.}
+\end{figure}
+
+The sequence matters because each phase can move inequality differently. Lockdowns can compress observed consumption inequality through reduced high-end spending. Emergency policy can hold disposable income together despite labour-market disruption. Reopening can generate uneven wage recovery. Inflation can then redistribute welfare again through household-specific spending baskets.
+
+\subsection{Proposed empirical design}
+A future OECD-wide study should classify households into income groups using pre-period equivalized disposable income and then track three families of outcomes.
+
+First, \emph{within-middle dispersion outcomes} would measure wage and consumption spread among households remaining in the middle band. Second, \emph{transition outcomes} would estimate downward and upward exit probabilities from the middle. Third, \emph{welfare-pressure outcomes} would measure the share of expenditure devoted to essentials and the evolution of real consumption capacity.
+
+A stylized repeated cross-country specification would be
+\[
+Y_{ict}=\alpha+\beta_1\,\text{Phase}_t+\beta_2\,\text{Policy}_{ct}+\beta_3\,\text{InflationExposure}_{ict}+\beta_4 X_{ict}+\mu_c+\tau_t+\varepsilon_{ict},
+\]
+where $Y_{ict}$ is a household-level or worker-level outcome, $\mu_c$ are country fixed effects, and $\tau_t$ are period effects. In practice, the most informative quantities are likely to be interactions: phase by policy, phase by sector, and phase by inflation exposure.
+
+\subsection{Operational choices}
+For replicability, a future study should pre-specify several choices.
+
+\begin{itemize}
+\item \textbf{Middle-class band}: use a baseline median-centered range and report sensitivity to narrower and wider bands.
+\item \textbf{Wage inequality metric}: report at least one simple spread measure and one variance-based measure within the middle band.
+\item \textbf{Consumption metric}: report both total expenditure dispersion and category-specific evidence for essentials versus discretionary goods.
+\item \textbf{Timing}: separate the acute 2020 period from later reopening and inflation periods rather than pooling them.
+\item \textbf{Comparability}: report country-specific results before pooled averages, because heterogeneity is substantively expected rather than nuisance variation.
+\end{itemize}
+
+\subsection{Identification risks}
+Several risks are immediate. Pandemic support policies were endogenous to country conditions. Employment selection may distort wage distributions if lower-paid workers disappear temporarily from the observed employed population. Consumption measures reflect both welfare and restrictions on what could be purchased. Inflation exposure is heterogeneous and partly behavioural. These risks do not invalidate the inquiry, but they require a design that is explicit about what is descriptive, what is comparative, and what is plausibly causal.
+
+\section{Observed Evidence Synthesis}
+
+\subsection{Observed result 1: inequality shaped pandemic vulnerability}
+The strongest direct result in the current source set is that pre-existing inequality mattered for pandemic outcomes across OECD countries. \citet{covid19andincomein2021springer} find that higher inequality was associated with worse COVID-19 outcomes, consistent with the view that unequal societies were more exposed along multiple margins. This result does not directly measure middle-class transitions after the pandemic, but it strongly supports the broader proposition that distributional structure conditioned the shock.
+
+For the present paper, the implication is straightforward. If pre-existing inequality altered exposure, then middle-income households should not be assumed to have experienced a common pandemic trajectory. Some were buffered by occupation, household composition, and institutional setting; others were materially exposed despite similar pre-pandemic income rank.
+
+\subsection{Observed result 2: labour-market recovery was real but incomplete in welfare terms}
+OECD evidence indicates that labour markets recovered strongly after the acute phase of COVID-19, yet this did not automatically restore middle-income welfare \citep{oecdemploymentoutl2024oecd}. The key reason is that wage recovery must be read against inflation, job quality, and cost-of-living conditions. For middle-income households, that distinction is critical. A nominal pay increase can coexist with weaker real consumption possibilities if housing, food, and energy prices rise faster than earnings.
+
+This point limits both optimistic and pessimistic narratives. It rejects the claim that employment recovery alone proves the middle class remained secure. It also rejects the opposite claim that all middle-income households must have deteriorated uniformly. The observed OECD evidence points instead to uneven welfare effects under a common aggregate recovery headline.
+
+\subsection{Observed result 3: affordability pressure remained central}
+The social-indicators evidence reinforces this interpretation. \emph{Society at a Glance 2024} documents continued concern with inequality, social risk, and affordability in the post-pandemic period \citep{societyataglance202024bolletti}. The source is not a dedicated within-middle-class decomposition, but it does strengthen the paper's central framing: the relevant post-COVID question is not merely whether economies reopened, but whether households faced persistent pressure in purchasing power and living standards.
+
+This matters especially for middle-income households because they often sit in an awkward policy position. They may be less protected by sharply targeted transfers than low-income households, but they are rarely insulated from essential-cost shocks by wealth or price-setting power. That does not imply uniform deterioration; it does imply persistent exposure.
+
+\subsection{Observed result 4: consumption inequality need not rise monotonically}
+The official BLS comparator study shows that measured consumption inequality in the United States fell in 2020 and then partially rebounded afterward \citep{consumptioninequal2024bls}. This is indirect evidence for the OECD question, but it is methodologically important because it reveals how category-specific spending shocks can compress inequality temporarily. In other words, a decline in measured inequality during the strict lockdown period need not indicate reduced long-run distributional pressure.
+
+This finding helps interpret why a pandemic can generate both temporary compression and later divergence. Spending on travel, leisure, and other high-end categories fell sharply during restrictions. Later, as discretionary opportunities returned and inflation raised the price of essentials, living-standard differences could widen again. Any OECD analysis that ignores this sequencing risks misreading the path of consumption inequality.
+
+\section{Testable Expectations Not Yet Directly Estimated}
+
+\subsection{Expectation 1: within-middle wage inequality likely widened in at least some OECD countries}
+The assembled evidence makes this expectation plausible but not directly measured. The mechanisms are clear enough: sectoral scarring, unequal teleworkability, differences in bargaining power, and uneven pass-through from labour scarcity to pay. OECD labour-market evidence is compatible with such heterogeneity \citep{oecdemploymentoutl2024oecd}. But compatibility is not direct proof. Without cross-country decile, ventile, or within-band wage evidence specific to middle-income households, the paper cannot claim a measured OECD-wide increase in within-middle wage inequality.
+
+The correct formulation is therefore cautious but substantive: within-middle wage inequality likely widened in at least some OECD settings, especially where inflation outpaced wage adjustment and where sectoral recovery differed sharply across occupations, but the magnitude and cross-country generality remain unresolved in the present evidence base.
+
+\subsection{Expectation 2: within-middle consumption inequality likely followed a non-linear path}
+The most defensible expectation is not a simple rise from 2020 onward. The comparator evidence suggests a more complex sequence: short-run compression during restricted mobility, followed by renewed divergence as household buffers, debt, savings, and exposure to essentials inflation separated households \citep{consumptioninequal2024bls}. For OECD middle-income households, that implies a likely pattern of delayed divergence rather than immediate monotonic expansion.
+
+Again, the expectation is analytically strong but still unestimated for the OECD middle class specifically. The key unresolved empirical task is to observe whether middle-income households experienced a widening spread in real expenditures after emergency support faded and inflation intensified.
+
+\subsection{Expectation 3: hollowing out is plausible, but requires transition evidence}
+The title question ultimately turns on movement into and out of the middle. That requires transition matrices, changes in middle-income shares, or equivalent subgroup decompositions. The present evidence base does not contain those estimates in directly accessible form. The metadata-only OECD working-paper lead suggests that middle-class shrinkage and wealth polarization are live OECD research topics \citep{oecdeconomicsdepar2023one}, but that is not enough for a firm result.
+
+The paper therefore treats hollowing out as a serious hypothesis that is consistent with the broader pattern of asymmetric recovery and affordability stress, yet still unproven at the OECD-wide level in the current source set. This is not rhetorical caution for its own sake; it reflects the exact evidence required by the claim.
+
+\section{Robustness, Limitations, and Threats to Validity}
+
+\subsection{Scope limit of the current manuscript}
+The main limitation is also the most important framing point: this paper is an evidence synthesis and empirical framework, not a completed microdata evaluation of OECD-wide middle-class transitions. The title asks a question more sharply than the current data can decisively answer. The manuscript resolves that mismatch by treating the question as a structured empirical proposition and by refusing to present hollowing out as already demonstrated.
+
+\subsection{Measurement limits}
+Income, wages, and consumption can diverge over the same interval. Annual measures can miss sharp but temporary distress. Relative-income definitions can classify a household as middle-income even when real welfare deteriorates. Consumption measures are vulnerable to restrictions-induced composition effects. These are not minor technicalities; they are central reasons why middle-class analysis requires multiple indicators.
+
+\subsection{Selection and composition}
+Observed wage distributions can be misleading if labour-force exits are selective. A measured rise in wages among employed workers may reflect who remained employed rather than improved outcomes for the underlying group. Similarly, reduced spending in 2020 can reflect unavailable consumption opportunities rather than improved equality. Any definitive study must correct for these composition effects as far as the data allow.
+
+\subsection{Cross-country comparability}
+OECD comparisons are substantively valuable but difficult. Countries differ in tax-transfer design, inflation composition, housing systems, wage bargaining, temporary work prevalence, and the timing of reopening. These differences make a pooled estimate hard to interpret unless country heterogeneity is made explicit. The correct empirical default is therefore country-specific reporting first and pooled summary second.
+
+\subsection{Comparator and provenance limits}
+The BLS study is a useful comparator, not direct OECD evidence \citep{consumptioninequal2024bls}. Likewise, the social-indicators source is an OECD publication accessed through a mirror in this research run \citep{societyataglance202024bolletti}. And the potentially important OECD working paper remained metadata-only here \citep{oecdeconomicsdepar2023one}. The manuscript uses each source in line with what it can genuinely support.
+
+\section{Discussion and Implications}
+
+\subsection{Substantive interpretation}
+The most credible substantive interpretation is that the pandemic altered middle-class distribution through a sequence of unequal pressures rather than through a single continuous mechanism. The initial shock affected workers unevenly by sector and occupation. Policy support then compressed some immediate losses. Reopening created uneven nominal recovery. Inflation subsequently redistributed strain through household-specific expenditure baskets. On this reading, the middle class was not simply stable or unstable; it became more heterogeneous in ways that standard aggregate indicators can miss.
+
+This interpretation also reconciles apparently conflicting observations. Strong employment recovery can coexist with weaker real welfare. Measured consumption inequality can fall during lockdowns and rise later. A middle class can remain sizeable in relative-income terms while becoming more internally unequal and more materially insecure. These are not contradictions once timing and measurement are made explicit.
+
+\subsection{Implications for policy analysis}
+For policy, the paper suggests that crisis stabilization and middle-class protection are not the same thing. Emergency support may prevent collapse without preventing later divergence. If inflation is concentrated in essentials, households can experience prolonged strain even after labour markets improve. The relevant policy questions are therefore not only whether jobs returned, but whether real purchasing power recovered, whether middle-income households were included in relief design, and whether housing and energy policy amplified or dampened post-pandemic divergence.
+
+\subsection{Implications for research practice}
+For future research, the paper recommends a best-practice reporting bundle. Any serious OECD study of post-COVID middle-class inequality should report: the share of households in the middle band; transition rates out of the middle; within-middle wage dispersion; within-middle consumption dispersion; and indicators of essential-budget stress. These outcomes should be reported separately for at least four phases: pre-pandemic baseline, acute shock, policy-cushioning period, and inflation/reopening period.
+
+\begin{table}[t]
+\centering
+\caption{Recommended reporting template for a future OECD microdata study}
+\begin{tabular}{p{0.28\linewidth}p{0.28\linewidth}p{0.34\linewidth}}
+\toprule
+Domain & Minimum outcome & Why it matters \\
+\midrule
+Middle-class size & Share of households in middle-income band & Detects whether the middle shrank \\
+Mobility & Downward and upward transition rates & Identifies hollowing out directly \\
+Wages & Within-middle wage spread by phase & Shows labour-market divergence inside the middle \\
+Consumption & Within-middle expenditure spread by phase & Captures living-standard divergence beyond wages \\
+Affordability & Essential-budget share and real expenditure capacity & Links inflation to welfare pressure \\
+Cross-country comparison & Country-specific estimates before pooled summary & Preserves institutional heterogeneity \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent Table 3 converts the paper's framework into a practical empirical agenda: without the mobility row, the strongest hollowing-out claim remains untested.
+
+\section{Conclusion}
+This manuscript has addressed whether COVID-19 hollowed out the OECD middle class by widening wage and consumption inequality within the middle and by pushing households toward lower- and higher-income positions. The contribution is intentionally disciplined: it is an evidence synthesis and empirical framework, not a completed OECD-wide transition study.
+
+The strongest defensible conclusion is that COVID-19 intensified distributional pressure on middle-income households across OECD countries, but that the form and timing of that pressure were heterogeneous rather than uniform \citep{oecdemploymentoutl2024oecd,societyataglance202024bolletti}. The evidence also supports a non-linear interpretation of consumption dynamics and a distinction between labour-market recovery and welfare recovery \citep{consumptioninequal2024bls}. What the current source base does not directly establish is an OECD-wide, directly measured hollowing out of the middle class.
+
+That conclusion is narrower than the title question, but it is analytically more useful than either overclaiming or retreating into vagueness. The paper shows why the hypothesis is plausible, why its mechanisms differ across wages and consumption, and why it cannot be settled without transition and decomposition evidence. The next step is therefore clear: assemble harmonized OECD microdata capable of measuring within-middle dispersion and movement into and out of the middle across the shock, support, reopening, and inflation phases. Until that evidence is brought to bear, hollowing out should be treated as an important and testable proposition, not as an established OECD-wide fact.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
