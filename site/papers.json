@@ -5,8 +5,12 @@
     "topic": "OECD middle-class inequality after COVID-19, with emphasis on wage and consumption inequality within the middle class.",
     "decision": "warn",
     "quality_score": 7.33,
-    "updated_at": "2026-03-15T16:43:06Z",
-    "github_url": "",
-    "has_pdf": false
+    "updated_at": "2026-03-15T16:52:29Z",
+    "source_repo": "",
+    "has_pdf": false,
+    "abstract_preview": "This manuscript is an evidence synthesis and empirical framework paper, not a completed OECD-wide microdata study. It examines a sharp but still only partially answered question: whether the COVID-19 period widened inequality within the middle class in OECD countries by increasing wage and consumption dispersion among middle-income households and by raising the likelihood that some households exited the middle toward…",
+    "review_preview": "# Review Summary ## Iteration 1 - Average score: 7.0 - Decision: revise - academic_editor: score=6, pass=False - must-fix: Resolve manuscript-type mismatch by either (a) reframing as a synthesis/framework paper throughout (title, claims, results language), or (b) adding direct OECD microdata analysis that tests hollowing-out transitions. - must-fix: Strengthen literature and source coverage to support OECD-wide inference, especially on middle-income transition matrices and within-middle wage/con…",
+    "word_count": 4724,
+    "citation_count": 37
   }
 ]
